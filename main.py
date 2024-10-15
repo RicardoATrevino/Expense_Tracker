@@ -57,7 +57,7 @@ def view_expenses():
 
   
 def delete_expense():
-  if not os.path.exists(file_path)
+  if not os.path.exists(file_path):
     print("No expenses to delete")
     return
   
